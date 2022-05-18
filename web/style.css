@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    position: relative;
+    background-color: rgb(96, 98, 105);
+}
+.megamenu{
+    float: left;
+    width: 100%;
+} 
+.megamenu .logo{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.megamenu .logo .mainlogo{
+    width: 49px;
+    height: 49px;
+    float: left;
+}
+/* .megamenu .menu{
+   
+} */
+.megamenu .menu ul{
+    width: 100%;
+}
+.megamenu .menu ul li{
+
+    float: left;
+    padding: 14px;
+    background-color: rgb(87, 78, 110);
+    list-style: none;
+
+}
+.megamenu .menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+}
+.megamenu .menu ul li:hover{
+    background-color: #5e58aa;
+    border-radius: 40%;
+    transition: 500ms;
+}
+.megamenu .menu ul li a:hover{
+    color: #fff;
+}
+.container .cover{
+    width: 100%;
+}
+.container .cover .coverimg{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(85, 85, 85, 0.795);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: rgba(195, 218, 115, 0.473);
+  }
