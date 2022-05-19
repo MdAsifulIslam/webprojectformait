@@ -1,78 +1,173 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
 .container{
     width: 100%;
-    position: relative;
-    background-color: rgb(96, 98, 105);
 }
-.megamenu{
-    float: left;
+.container .row-menu{
     width: 100%;
-} 
-.megamenu .logo{
-    width: 50px;
-    height: 50px;
+    height: 90px;
+    background-color: #dddddd;
+}
+.container .row-menu .col-1{
+    width: 384px;
+    height: 100px;
     float: left;
 }
-.megamenu .logo .mainlogo{
-    width: 49px;
-    height: 49px;
+.container .row-menu .col-2{
+    width: 384px;
+    height: 100px;
     float: left;
 }
-/* .megamenu .menu{
-   
-} */
-.megamenu .menu ul{
-    width: 100%;
-}
-.megamenu .menu ul li{
-
+.container .row-menu .col-3{
+    width: 384px;
+    height: 100px;
     float: left;
-    padding: 14px;
-    background-color: rgb(87, 78, 110);
+}
+.container .row-menu .col-4{
+    width: 384px;
+    height: 100px;
+    float: left;
+}
+.container .row-menu .col-1 .logo{
+    width: 20%;
+    /* float: right; */
+    margin-top: 10px;
+}
+.container .row-menu .col-2 ul li{
+    float: left;
+    margin-top: 35px;
     list-style: none;
-
 }
-.megamenu .menu ul li a{
-    text-decoration: none;
-    color: rgb(255, 0, 0);
-    font-size: 18px;
+.container .row-menu .col-2 ul li a{
+    color: #000000;
+    padding: 17px 12px;
 }
-.megamenu .menu ul li:hover{
-    background-color: #5e58aa;
-    border-radius: 40%;
-    transition: 500ms;
+.container .row-menu .col-2 ul li a:hover{
+    
+    color: #228b22;
+    border-radius: 30%;
+    transition-delay: 300ms;
+    transition-duration: 1s;
+    text-decoration: underline;
+    text-decoration-color: #228b22;
+    text-decoration-thickness: 2px;
 }
-.megamenu .menu ul li a:hover{
-    color: #fff;
+.col-4{
+    background-color: #b0e0e6;
 }
-.container .cover{
-    width: 100%;
+.col-4 ul li{
+    list-style: none;
+    float: right;
+    padding: 30px;
 }
-.container .cover .coverimg{
-    width: 100%;
-    height: auto;
+.col-4 ul li a{
+    color: #008000;
+}
+.container .banner{
+    float: left;
+    width: 1236px;
+    height: 400px;
+    margin-left: 150px;
+    
+}
+.container .banner .banner-img{
+    width: 1236px;
+    height: 400px;
     position: relative;
-    margin: 0 auto;
+    float: left;
 }
-.container .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: rgba(85, 85, 85, 0.795);
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .container .btn:hover {
-    background-color: rgba(195, 218, 115, 0.473);
-  }
+.container .banner h2{
+    color: #008000;
+    padding-top: 40px;
+    position:absolute;
+    margin-left: 400px;
+}
+
+.container .latest{
+    float: left;
+    width: 1519px;
+    height: 50px;
+    margin-top: 10px;
+}
+.container .latest .updateone{
+    width: 150px;
+    height: 30px;
+    margin-left: 50px;
+    padding-top: 10px;
+    text-align:center;
+    color: #fff;
+    background-color: #008000;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-weight: bold;
+    float: left;
+}
+.container .latest .updatetwo{
+    width: 1135px;
+    height: 50px;
+    float:left;
+    padding-top: 10px;
+}
+.container .latest .updatetwo marquee{
+    direction: ltr;
+}
+.container .latest .updatetwo marquee li{
+    list-style: none;
+    float: left;
+}
+.container .latest .updatetwo marquee li a{
+    color: #ff69b4;
+}
+.container .latest .updatetwo li a span{
+    left: 25px;
+    right: 25px;
+}
+
+.container .latest .updatethree{
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+    text-align:center;
+    color: #ffffff;
+    background-color: #008000;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight: bold;
+    float: left;
+}
+
+.posts-row{
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+.posts-row .col-1{
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #000000;
+    background-color: #cccccc;
+}
+.posts-row .col-1 .img{
+    width: 100px;
+    height: 148px;
+    float:left;
+}
+.posts-row .col-1 .img .post{
+    width: 100px;
+    height: 100px;
+}
+.posts-row .col-1 .header a{
+    font-weight: 900;
+    color: #000000;
+}
+.posts-row .col-1 .min-content a{
+    text-align: justify;
+    color: #000000;
+}
