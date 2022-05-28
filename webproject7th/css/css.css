@@ -1,0 +1,225 @@
+/*
+    THIS STYLE SHEET WRITE ON CSS
+    THIS STYLE SHEET WRITE FOR INDEX.HTML 
+    WRITTEN BY ASIFUL ISLAM
+
+    EDITING DATE'S
+    FIRST EDITING DATE : 24 FEBRUARY, 2022
+    SECOND EDITING DATE : 25 FEBRUARY, 2022
+    THIRD EDITING DATE : 
+
+*/
+
+/*
+    CSS SOME SHORTCUT :
+                        WRITE TOP RIGHT BOTTOM LEFT SPACIPHIC IN ONE LINE
+                        LIKE PADDING , MARGINE , BORDER 
+    
+    DEMO : 
+        
+        SHORTCUT :
+
+            PADDING : TOP RIGHT BOTTOM LEFT;
+
+            padding : 10px 10px 10px 10px;
+
+            PADDING : TOP&BOTTOM LEFT&RIGHT;
+            
+            padding : 10px 10px;
+
+            PADDING : TOP RIGHT BOTTOM LEFT;
+            padding : 10px;
+
+        SPACIPHIC :    
+        
+            padding-top : 10px;
+            padding-right : 10px;
+            padding-bottom : 10px;
+            padding-left : 10px;
+*/
+
+/*
+    COLOR CODE USING THIS WEBSITE LIKE
+    BACKGROUND , COLOR , HOVER ETC.
+    #dddddd, #ffffff, #000000, #056836,
+*/
+
+/*
+    * MARK FOR ALL PAGE STYLE ARE SAME THATS MEAN A COMMON DESIGN BY STAR(*) MARK
+*/
+
+*{
+    padding : 0;
+    margin : 0;
+    font-family : 'Noto Serif Bengali', serif;
+}
+
+/* BODY TAG > CONTAINER CLASS */
+
+.container{
+    width : 100%;
+    background-color : #dddddd;
+}
+
+/* MENUBAR DESIGN START FROM HERE */
+
+/* BODY TAG > CONTAINER CLASS > HEADER CLASS */
+.container .header{
+    width : 100%;
+    background-color : #ffffff;
+}
+
+/*  BODY TAG > CONTAINER CLASS > HEADER CLASS > MAIN-MENU CLASS  */
+
+.container .header .main-menu{
+    width : 100%;
+    height : 60px;
+}
+
+/*  BODY TAG > CONTAINER CLASS > HEADER CLASS > MAIN-MENU CLASS > MENU1 CLASS  */
+
+.container .header .main-menu .menu1{
+    margin-top : 2px;
+}
+
+/*  BODY TAG > CONTAINER CLASS > HEADER CLASS > MAIN-MENU CLASS > MENU1 CLASS > UL  */
+/*
+    .container .header .main-menu .menu1 ul{
+
+    }
+*/
+
+/*  BODY TAG > CONTAINER CLASS > HEADER CLASS > MAIN-MENU CLASS > MENU1 CLASS > UL > LI  */
+
+.container .header .main-menu .menu1 ul li{
+    float : left;
+}
+
+/*   BODY TAG > CONTAINER CLASS > HEADER CLASS > MAIN-MENU CLASS > MENU1 CLASS > UL > LI > A */
+/*
+    .container .header .main-menu .menu1 ul li a{
+
+    }
+*/
+/*   BODY TAG > CONTAINER CLASS > HEADER CLASS > MAIN-MENU CLASS > MENU1 CLASS > UL > LI > A > LOGO CLASS   */
+
+.container .header .main-menu .menu1 ul li a .logo{
+    width : 50px;
+    height : 38.688px;
+    margin-top : 10px;
+}
+
+/*   BODY TAG > CONTAINER CLASS > HEADER CLASS > MAIN-MENU CLASS > MENU2 CLASS > UL > LI   */
+
+.container .header .main-menu .menu2 ul li{
+    list-style : none;
+    float : left;
+    padding : 15px;
+}
+
+/*   BODY TAG > CONTAINER CLASS > HEADER CLASS > MAIN-MENU CLASS > MENU2 CLASS > UL > LI > A  */
+
+.container .header .main-menu .menu2 ul li a{
+    text-decoration : none;
+    color : #000000;
+    font-size : 14px;
+}
+
+/*MENUBAR DESIGN END HERE*/
+
+/* TOP IMAGE START HERE */
+
+/*  BODY TAG > CONTAINER CLASS > TOP-IMAGE CLASS */
+
+/*
+.container .info-image{
+
+    width : 100%;
+
+}
+*/
+
+
+/*    BODY TAG > CONTAINER CLASS > TOP-IMAGE CLASS > TOP-CENTER-IMAGE CLASS    */
+
+/*
+
+.container .info-image .info-center-image{
+    width : 100%;
+}
+
+*/
+
+/*    BODY TAG > CONTAINER CLASS > TOP-IMAGE CLASS > TOP-CENTER-IMAGE CLASS > TOP IMAGE CLASS  */
+
+.container .info-image .top-center-image .infoimage{
+    width: 1300px;
+    margin : 0px 40px;
+}
+
+/* TOP IMAGE END HERE */
+
+/* SLIDER TEXT START FROM HERE */
+.slider{
+    height: 200px;
+    background-color: #8aeebc;
+}
+.slider ul{
+    height: 50px;
+}
+.slider ul li{
+    list-style: none;
+    float: left;
+}
+.slider ul li a{
+    text-decoration: none;
+    color: red;
+}
+
+.slider ul li .same{
+    background-color: #056836;
+    padding: 20%;
+}
+/* SLIDER TEXT END HERE */
+
+/*    LAST PART OF INDEX PAGE WHICH NAME IS FOOTER   */
+
+/* BODY TAG > CONTAINER CLASS > FOOTER CLASS */
+
+.container .footer{
+    width: 100%;
+    height: 250px;
+    background-color: #000000;
+}
+
+/*  BODY TAG > CONTAINER CLASS > FOOTER CLASS > UL  */
+
+.container .footer ul{
+    display: block;
+}
+
+/*  BODY TAG > CONTAINER CLASS > FOOTER CLASS > UL > LI */
+
+.container .footer ul li{
+    list-style: none;
+}
+
+/*  BODY TAG > CONTAINER CLASS > FOOTER CLASS > UL > LI > A  */
+
+.container .footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/*  BODY TAG > CONTAINER CLASS > FOOTER CLASS > UL > LI > HOVER */
+
+.container .footer .footer-four ul li :hover{
+    color: #056836;
+    transition: 400ms;
+}
+
+/*  THIS IS THE END OF THIS PAGE DESIGN  */ 
+/*  NEXT IS RESPONSIVE DESIGN  */
+/*  ALL THANKS TO BDINFO.COM.BD TAKE IDEA AND DESIGN FORM THERE, BUT THAT WAS A WORDPRESS SITE WHICH I CONVERT TO RAW CODE  */
+/*  THIS CONVERTING SUGGESTION FROM MEHEDI HASAN, SENIOR WEB DEVELOPER OF HASNAT INTERNATIONAL  */

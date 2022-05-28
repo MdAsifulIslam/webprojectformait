@@ -1,0 +1,31 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .container .row-menu .col-1 .logo{
+        width: 200px;
+        margin-left: 100px;
+    }
+    .container .row-menu .col-2 ul{
+        display: none;
+        
+    }
+    .container .banner{
+        display: none;
+    }
+    .container .banner .banner-img{
+        display: none;
+    }
+    .container .latest{
+        display: none;
+    }
+    .container .updateone{
+        display: none;
+    }
+    .container .updatetwo{
+        display: none;
+    }
+    .container .updatethree{
+        display: none;
+    }
+    
+  }
